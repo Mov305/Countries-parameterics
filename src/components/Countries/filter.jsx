@@ -59,7 +59,7 @@ function Filter() {
       >
         Filter
       </button>
-      <div className={`relative `}>
+      <div className="relative">
         <button
           type="button"
           onClick={handleOpen}
