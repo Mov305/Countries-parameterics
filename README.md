@@ -1,6 +1,6 @@
 # Countries parameterics
 
-not yet
+In Mov World application you can find any country in the world and know its information. In addition, the application will show you interesting facts about each of these countries. and the demographic information about this country, population, area, language, and falgs
 
 ## Live Demo
 
@@ -9,7 +9,6 @@ not yet
 ## Loom video
 
 [Click me](https://www.loom.com/share/03ee1ce33dbf497bb7de7c0518382327)
-
 
 ## Built With
 
