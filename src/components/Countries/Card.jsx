@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 function Card({ country }) {
+  const area = country.area;
+  const weekStart = country.startOfWeek.toUpperCase();
   return (
     <Link to={`/country/${country.name.official}`}>
-      <div  className="group relative block bg-black/90">
+      <div className="group relative block bg-black/90">
         <img
           alt="Developer"
           src={country.flags.svg}
@@ -20,7 +22,7 @@ function Card({ country }) {
           <div className="mt-32">
             <div className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
               <p className="text-sm text-white">
-                Week starts at {country.startOfWeek.toUpperCase()} and the area is {country.area}{' '}
+                Week starts at {weekStart} and the area is {area}
                 km²
               </p>
             </div>

@@ -4,7 +4,11 @@ not yet
 
 ## Live Demo
 
-[not available yet](#)
+[Live demo](https://mov-countries.netlify.app/)
+
+## Loom video
+
+[Click me](https://www.loom.com/share/03ee1ce33dbf497bb7de7c0518382327)
 
 
 ## Built With
