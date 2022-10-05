@@ -36,7 +36,7 @@ const Navbar = () => {
                 className={` md:translate-x-0 md:translate-y-0 md:static md:w-auto md:opacity-100 md:bg-transparent md:backdrop-blur-0 md:flex-row md:gap-0 flex md:flex-1 transition duration-300 ${
                   !open
                     ? ' -translate-y-96 w-10 md:flex flex-1 justify-end items-center'
-                    : 'absolute bg-[#CBD5E155] backdrop-blur-md z-10 flex flex-col gap-5 top-10 w-[100%] mx-auto p-4 rounded-2xl'
+                    : 'absolute bg-[#CBD5E155] backdrop-blur-md z-30 flex flex-col gap-5 top-10 w-[100%] mx-auto p-4 rounded-2xl'
                 }`}
               >
                 <nav className="flex flex-1 flex-col md:flex-row justify-end gap-8 md:gap-0">

@@ -6,9 +6,9 @@ function List({ countries }) {
   return (
     <section className="bg-gray-100/10">
       <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="items-end justify-between sm:flex">
+        <div className="items-end justify-between flex">
           <div className="max-w-xl">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-5xl dark:text-slate-200">
+            <h2 className="text-xl font-bold tracking-tight sm:text-3xl dark:text-slate-200">
               Mov World
             </h2>
           </div>
