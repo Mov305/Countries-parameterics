@@ -1,12 +1,10 @@
-import logo from '../assets/logo_transparent.png';
-
 const Footer = () => (
   <footer className="">
     <div className="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
-      <div className="flex flex-col items-center p-6 bg-[#08ACB4] rounded-lg shadow-lg gap-4 sm:flex-row sm:justify-between">
-        <strong className="text-xl text-white sm:text-xl">Get to know more about Mov Books!</strong>
+      <div className="flex flex-col items-center p-6 bg-[#EC4C8A] rounded-lg shadow-lg gap-4 sm:flex-row sm:justify-between">
+        <strong className="text-xl text-white sm:text-xl">Get to know more about Mov World!</strong>
         <a
-          className="inline-flex items-center px-8 py-3 text-[#08ACB4] bg-white border border-white rounded-full hover:bg-transparent hover:text-white active:bg-white/90 focus:outline-none focus:ring transition"
+          className="inline-flex items-center px-8 py-3 text-[#EC4C8A] bg-white border border-white rounded-full hover:bg-transparent hover:text-white active:bg-white/90 focus:outline-none focus:ring transition"
           href="/"
         >
           <span className="text-sm font-medium"> Let's Get Started </span>
@@ -185,7 +183,7 @@ const Footer = () => (
         <div className="mt-16 sm:flex sm:justify-between sm:items-center">
           <div className="flex justify-center text-teal-600 dark:text-teal-300 sm:justify-start">
             <div className="w-20 md:w-28 mt-2 md:mt-8  ">
-              <img className="w-full drop-shadow-2xl " src={logo} alt="logo" />
+              <img className="w-full drop-shadow-2xl " src="./logo_transparent.png" alt="logo" />
             </div>
           </div>
           <p className="mt-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mt-0 sm:text-right">

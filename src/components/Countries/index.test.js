@@ -1,14 +1,15 @@
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
-import store from './redux/configureStore';
-import App from './App';
+import Filter from './filter';
+import store from '../../redux/configureStore';
 
-test('renders learn react link', () => {
+test('Countries test', () => {
   render(
     <Provider store={store}>
-      <App />
+      <Filter />
     </Provider>,
   );
-  const linkElement = screen.getByText(/Instagram/i);
+
+  const linkElement = screen.getByText(/Delete/i);
   expect(linkElement).toBeInTheDocument();
 });
